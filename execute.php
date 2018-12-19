@@ -55,6 +55,9 @@
 			$text="viva il Duce!";
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+		if($text == "foto"){
+			sendfoto($chatId,"Benito.jpg",false,"la mia foto", $api);
+		}
 		
 		//aggiungo il comando di invio
 		//e lo invio
