@@ -61,11 +61,11 @@
 
 		if($text == "barz"){
 			$barz[0]="Mamma, com'è possibile che io riesco a risolvere il cubo di Rubik in pochi secondi e ad altri bambini serve molto più tempo? Perché tu sei daltonico.";
-			/*$barz[3]=" Dottoressa, c'è l'ho duro 24 ore al giorno, cosa mi può dare? Vitto, alloggio e 800 euro al mese.";
+			$barz[3]=" Dottoressa, c'è l'ho duro 24 ore al giorno, cosa mi può dare? Vitto, alloggio e 800 euro al mese.";
 			$barz[2]="Qual è la differenza tra Lui e Lei mentre fanno l'amore? Nessuna! Lui c'è l'ha dentro e Lei c'è l'ha dentro.";
-			$barz[1]="Due amiche parlano di sesso:Tu dici al tuo marito quando raggiungi l'orgasmo? Ma no, non voglio disturbarlo mentre è in ufficio.";*/
-			//$i = rand(0,3);
-			$parameters = array('chat_id' => $chatId, "text" => $barz[0]);
+			$barz[1]="Due amiche parlano di sesso:Tu dici al tuo marito quando raggiungi l'orgasmo? Ma no, non voglio disturbarlo mentre è in ufficio.";
+			$i = rand(0,3);
+			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
 		//aggiungo il comando di invio
 		//e lo invio
