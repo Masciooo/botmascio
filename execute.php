@@ -65,7 +65,7 @@
 			$barz[2]="Qual è la differenza tra Lui e Lei mentre fanno l'amore? Nessuna! Lui c'è l'ha dentro e Lei c'è l'ha dentro.";
 			$barz[1]="Due amiche parlano di sesso:Tu dici al tuo marito quando raggiungi l'orgasmo? Ma no, non voglio disturbarlo mentre è in ufficio.";*/
 			//$i = rand(0,3);
-			$parameters = array('chat_id' => $chatId, "text" => $text => $barz[0]);
+			$parameters = array('chat_id' => $chatId, "text" => $barz[0]);
 		}
 		//aggiungo il comando di invio
 		//e lo invio
