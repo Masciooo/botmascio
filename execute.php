@@ -69,7 +69,7 @@
 			$barz[1]="Due amiche parlano di sesso:
 				- Tu dici al tuo marito quando raggiungi l'orgasmo?
 				- Ma no, non voglio disturbarlo mentre è in ufficio."
-			$i = srand(0,3);
+			$i = rand(0,3);
 			$parameters = array('chat_id' => $chatId, "text" => $text => $barz[$i]);
 		
 		//aggiungo il comando di invio
